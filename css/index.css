@@ -10,7 +10,6 @@ a {
 }
 
 a:hover {
-    /* text-decoration: underline; */
     border: 1px solid gray;
 }
 
@@ -89,10 +88,19 @@ button {
     line-height: 32px;
 }
 
-.paginacion {
+#boton-final {
+display: flex;
+justify-content: center;
+}
+
+#boton-final .paginacion {
     border: none;
+    border-radius: 3px;
     padding: 12px 48px;
+    margin: 24px;
     background: goldenrod;
+    width: 15%;
+    text-align: center;
 }
 
 .paginacion:hover {
